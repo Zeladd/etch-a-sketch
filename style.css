@@ -1,0 +1,20 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.pixel {
+    background-color: lightcyan;
+    width: 1rem;
+    height: 1rem;
+}
+
+.board-v {
+    display: flex;
+    flex-direction: column;
+}
+
+.board-h {
+    display: flex;
+    justify-content: center;
+}
