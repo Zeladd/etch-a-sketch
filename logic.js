@@ -1,16 +1,15 @@
-const boardH = document.querySelector(".board-h");
-const boardV = document.querySelector(".board-v")
+const board = document.querySelector("#board");
 
 function createBoard(size) {
     for (let i = 0; i < size; i++) {
-
+        const row = document.createElement("div");
+        row.className = "row";
+        board.appendChild(row);
         for (let j = 0; j < size; j++) {
             const pixel = document.createElement("div");
             pixel.className = "pixel";
-            boardH.appendChild(pixel);
+            row.appendChild(pixel);
         }
-
-
     }
 }
 
