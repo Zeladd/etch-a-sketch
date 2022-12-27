@@ -44,4 +44,5 @@ h1 {
 .pixel {
     background-color: white;
     flex-grow: 1;
+    user-select: none;
 }
